@@ -6,9 +6,10 @@
 * 对srt新直播协议敢兴趣
   
 ## 1. 运行环境
-centos
+linux平台：CENTOS <br/>
+GCC版本：gcc version 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) <br/>
 
-相关链接库：
+如果centos有链接库的问题，参考相关链接库：
 <pre>
 <code>
 ldd ./objs/srs
@@ -20,7 +21,6 @@ ldd ./objs/srs
 	libpthread.so.0 => /lib64/libpthread.so.0 (0x00007fb53ee84000)
 	libc.so.6 => /lib64/libc.so.6 (0x00007fb53eab6000)
 	/lib64/ld-linux-x86-64.so.2 (0x00007fb53fac3000)
-
 </code>
 </pre>
 
