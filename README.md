@@ -2,8 +2,10 @@
 本仓库仅仅提供给以下相关的同学：
 * 不擅长编译
 * 不擅长编程
-* 不会使用srs的docker，或环境无法允许docker允许
+* 不会使用srs的docker，或环境无法允许docker运行
 * 对srt新直播协议敢兴趣
+
+srt 支持hevc编码，欢迎大家试用。
 
 欢迎访问源码仓库: [SRS](https://github.com/ossrs/srs)
 
@@ -39,5 +41,6 @@ srt issues in srs: [srt_issues](https://github.com/ossrs/srs/issues/1147)
 
 ## 4. 推流工具ffmpeg
 推荐使用自适应bitrate的编码: [srt_encoder](https://github.com/runner365/srt_encoder)
-
 如何编译支持srt的ffmpeg: [wiki](https://github.com/runner365/srt_encoder/wiki/How-to-compile-cn)
+如何编译支持hevc的ffmpeg: [hevc in rtmp](https://github.com/runner365/ffmpeg_rtmp_h265)
+
